@@ -1,0 +1,21 @@
+.navbar {
+    width: 100%;
+    color: #333;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #acb9bb;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+}

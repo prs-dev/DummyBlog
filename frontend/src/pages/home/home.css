@@ -1,0 +1,125 @@
+.home {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+}
+
+.add-post {
+    border: 1px solid rgb(170, 170, 170);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.filter {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home .article {
+    width: 70%;
+    background: #9da8a7;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.home .article > h1 {
+    margin-bottom: 10px;
+}
+
+.article-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.article-btns button {
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.article-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.article-stats i {
+    margin-right: 5px;
+}
+
+.comment-form form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment-form {
+    display: none;
+}
+
+.comment-form.active {
+    display: block;
+}
+
+.comment-form textarea {
+    border: none;
+    border-radius: 5px;
+}
+
+.comment-form button {
+    border: none;
+    padding: 7px;
+    background: #43cbcf;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.comment-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.comment-list li {
+    width: 70%;
+    height: 30px;
+    background: #c1c4c3;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.comment-list {
+    display: none;
+}
+
+.comment-list.active {
+    display: block;
+}
+
+.article-content {
+    word-wrap: break-word;
+}

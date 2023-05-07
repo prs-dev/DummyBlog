@@ -1,0 +1,37 @@
+.edit-post > form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    align-items: flex-start;
+}
+
+.edit-post > form label {
+    font-size: 20px;
+}
+
+.edit-post > form input {
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+
+.edit-post > form textarea {
+    border: none;
+    width: 100%;
+}
+
+.edit-post > form button {
+    height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+.edit-post {
+    display: none;
+}
+
+.edit-post.active {
+    display: block;
+}
