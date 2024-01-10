@@ -1,8 +1,4 @@
-## Websultanate assignment
-## By - Pratyush Srivastava
-## Email - pratyushsri.25@gmail.com
-## [Live site](https://webdevtask.netlify.app/)
-## [Second link](https://webtask.onrender.com/)
+## DummyBlog
 
 ### Backend
 To run: npm start
